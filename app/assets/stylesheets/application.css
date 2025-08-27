@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+.list-group-item {
+  font-size: 1.1rem;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: darkblue;
+}
+
+
+h3, .card-title {
+  font-family: 'Roboto', sans-serif;
+  color: darkblue !important;
+}
+
+
+.list-group-item {
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+a {
+  text-decoration: none;
+  color: #0d6efd;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #0a58ca;
+}
